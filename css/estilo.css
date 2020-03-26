@@ -7,13 +7,27 @@ body {
     padding: 0;
 }
 
+.bg-light{
+    background-color: #eeffef !important;
+}
+
 
 .navbar-brand img {
     width: 50px;
-    background-color: #2e7d32;
-
+    
 }
 
+.navbar-brand{
+    display: inline-block;
+    
+    line-height: inherit;
+    
+    padding: 0 10px;
+}
+
+.carousel-inner {
+    margin-top: 60px;
+}
 
 header nav ul li a {
     text-transform: uppercase;
